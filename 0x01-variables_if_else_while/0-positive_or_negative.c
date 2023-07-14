@@ -1,10 +1,9 @@
-#!/bin/bash
-
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n;
@@ -15,22 +14,16 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("%i is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("is negative\n");
+		printf("%i is negative\n", n);
 	}
 	else
 	{
-		printf("is 0\n");
+		printf("%i is 0\n", n);
 	}
-
-
-
-
-
-
 
 	return (0);
 }
