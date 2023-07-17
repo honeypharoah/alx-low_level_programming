@@ -34,11 +34,10 @@ int main(void)
 		printf("%d and is 0\n", last_digit);
 	}
 
-	else
+	else 
 	{	
 		printf("%d and is less than 6 and not 0\n", last_digit);
 	}
 
 	return (0);
-
 }
