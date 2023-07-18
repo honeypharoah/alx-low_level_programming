@@ -1,20 +1,22 @@
 #include <stdio.h>
 
 /**
- *main - print 0123456789
- *Return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n = 0;
+	char number;
 
-	while (n < 10)
+	for (number = '0'; number <= '9'; number++)
 	{
-		printf("%i", n);
-		n++;
-	}
+		putchar(number);
+	}	
+
 	putchar('\n');
 
 	return (0);
+
 }
