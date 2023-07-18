@@ -24,17 +24,17 @@ int main(void)
 
 					if (num1 < num2)
 					{
-						putchar(i + '0');
-						putchar(j + '0');
-						putchar(' ');
-						putchar(x + '0');
-						putchar(y + '0');
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(' ');
+					putchar(x + '0');
+					putchar(y + '0');
 
-						if (i != 9 || j != 8 || x != 9 || y != 9)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (i != 9 || j != 8 || x != 9 || y != 9)
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 				}
 			}
