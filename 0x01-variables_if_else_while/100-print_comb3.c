@@ -1,30 +1,31 @@
 #include <stdio.h>
 
 /**
- *main - print 00 to 99 with no duplicate digits or combos: no 11, no 10 (01)
+ * main - Entry point
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int ones;
-	int tens;
+	int i, j;
 
-	for (tens = '0'; tens <= '9'; tens++) /*increment tens*/
+	for (i = 0; i < 9; i++)
 	{
-		for (ones = (tens + 1); ones <= '9'; ones++) /*one's ten+1*/
+		for (j = i + 1; j <= 9; j++)
 		{
-			putchar(tens);
-			putchar(ones);
+			putchar(i + '0');
+			putchar(j + '0');
 
-			if (tens != '8' || ones != '9') /*print commas*/
+			if (i != 8 || j != 9)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
+
 	}
+
 	putchar('\n');
 
 	return (0);
