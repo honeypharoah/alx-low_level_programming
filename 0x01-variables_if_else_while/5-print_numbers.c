@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	char number;
+	int i;
 
-	for (number = '0'; number <= '9'; number++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(number);
-	}	
+		printf("%d", i);
+	}
 
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 
