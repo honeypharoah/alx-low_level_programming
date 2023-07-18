@@ -2,19 +2,13 @@
 #define MAIN
 
 /**
- * main - Entry point
+ * print_alphabet 
  *
  * Return: Always 0 (Success)
  */
 
+void print_alphabet(void)
 
-/**
- * _putchar - writes the character c to stdoutput
- * c: the character to print
- *
- * Return: Always 0 (Success)
- */
 
-int _putchar(char c);
 
 #endif
