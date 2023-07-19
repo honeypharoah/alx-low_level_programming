@@ -1,13 +1,22 @@
 #include "main.h"
 
 /**
- * add - add two integers
- * @a: two integer arguments
- * @b: two integer arguments
- * Return: sum
+ * add - add 2 integers
+ *
+ * @a: integer to be added in sum
+ * @b: integer to be added in sum
+ *
+ * Return: The result
  */
 
 int add(int a, int b)
+
 {
-	return (a + b);
+	int r;
+
+	r = a + b;
+
+	_putchar(r + '0');
+
+	return (r);
 }
