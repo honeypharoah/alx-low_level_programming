@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - print the sign of a number
+ * print_sign - determines if the input number is greater than, equal to or less than 0
  *
- * @n: sign in ASCII code
+ * @n: the input number is an integer
  *
  * Return: 1 if n is greater than 0
  *	0 if n is 0
