@@ -12,10 +12,12 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 	
 	i = 0;
+	
+	/*ASCII code input instead of integer*/
 
 	while (i < 10)
 	{
-		putchar(i); /*ASCII input for character instead of integer*/
+		putchar(i);
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
