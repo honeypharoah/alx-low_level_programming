@@ -18,7 +18,7 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-			
+
 			for (draw = 1; draw <= height; draw++)
 			{
 				_putchar('#');
@@ -26,5 +26,10 @@ void print_triangle(int size)
 
 			_putchar('\n');
 		}
+	}
+
+	else
+	{
+		_putchar('\n');
 	}
 }
